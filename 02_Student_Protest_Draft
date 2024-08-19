@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple project</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        #hero_area
+        {
+            background-image: url('j.jpg');
+            background-size: cover;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 15px;
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+            z-index: 9;
+        }
+        #hero_area .btn
+        {
+            background-color: rgba(60, 211, 173, 0.884);
+            color: black;
+            font-family: cursive;
+            font-size: 10px;
+            text-decoration: none;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        #hero_area .btn:hover
+        {
+            background-color: red;
+        }
+        .bg 
+        {
+            position: absolute;
+            background-color: black;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0.4;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <section id="hero_area">
+        <div class="bg"></div>
+        <h2>2024 Bangladesh quota reform movement</h2><br>
+        <p>
+            The 2024 Bangladesh quota reform movement, also known as July Revolution was a series of anti-government and pro-democracy protests in Bangladesh, spearheaded primarily by university students. Initially focused on restructuring quota-based systems for government job recruitment, the movement expanded against what many perceive as an authoritarian government when hundreds of protestors and civilians, most of whom were students, were killed. The majority of the fatalities were caused by gunshots fired by the police and other government forces, using lethal and deadly weapons,against unarmed protestors and non-protesting civilians, including children and pedestrians.
+        </p><br><br>
+        <p>
+            The protest began in June 2024, in response to the Supreme Court of Bangladesh reinstating a 30% quota for descendants of freedom fighters, reversing the government decision made in response to the 2018 Bangladesh quota reform movement. Students began to feel like they have a limited opportunity based on merit. The protest, which initially began as a response to the reestablished quota system for government jobs, quickly spread throughout the entire country because of the government's violent response, as well as growing public dissatisfaction against an oppressive government. The situation was further complicated by many other ongoing issues, like the government's inability to manage a prolonged economic downturn, reports of rampant corruption and human rights violations, and the absence of democratic channels for initiating changes
+        </p><br><br>
+        <p>
+            The government sought to suppress the protests by shutting down all educational institutions. They deployed their student wing, the Chhatra League, along with other factions of the Awami League party, such as the Jubo League and the Swechasebak League. These groups resorted to using firearms and sharp weapons against the demonstrators.The government then deployed Police, RAB, BGB and other armed forces, declaring a nationwide shoot-at-sight curfewamid an unprecedented government-ordered nationwide internet and mobile connectivity blackout that effectively isolated Bangladesh from the rest of the world. Later, the government also blocked social media in Bangladesh, including Facebook, TikTok, and WhatsApp. As of August 2, there were 215 confirmed deaths, more than 20,000 injuries, and more than 11,000 arrests in various parts of the country. The unofficial death toll is between 300 and 500. UNICEF reported that at least 32 children were killed during July's protests, with many more injured and detained. Determining the exact number of deaths has been difficult because the government reportedly restricted hospitals from sharing information with the media without police permission, hospital CCTV footage was confiscated, and numerous individuals with gunshot wounds were buried without identification
+        </p><br><br>
+        <a class="btn" href="https://en.wikipedia.org/wiki/2024_Bangladesh_quota_reform_movement">More Information</a>
+    </section>
+</body>
+</html>

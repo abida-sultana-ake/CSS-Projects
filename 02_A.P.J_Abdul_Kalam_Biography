@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biography</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <h1>A.P.J Abdul Kalam</h1>
+    <img src="a.jpg" alt="">
+    <p>
+        "You have to dream before your dreams can come true." - APJ Abdul Kalam.
+    </p>
+    <div class="first">
+        <section>
+            <h2>About the Legend</h2>
+            <p>
+                1. Name : Avul Pakir Jainulabdeen Abdul Kalam.<br><br>
+2. Birth : Born on October 15, 1931, in Rameswaram, Tamil Nadu, India.<br><br>
+3. Education : Graduated in Physics from St. Joseph's College, Tiruchirappalli, and later studied aerospace engineering at the Madras Institute of Technology (MIT).<br><br>
+4. Career : Started his career at the Defense Research and Development Organization (DRDO) and later joined the Indian Space Research Organisation (ISRO).<br><br>
+5. Role in ISRO : Played a key role in India's space program, particularly in developing ballistic missile technology.<br><br>
+6. Missile Man of India : Known for his work on the development of the Agni and Prithvi missiles.<br><br>
+7. Pokhran-II Tests : Led the scientific team in the successful Pokhran-II nuclear tests in 1998.<br><br>
+8. 11th President of India : Served as the President of India from 2002 to 2007, becoming known as the "People's President."<br><br>
+9. Vision 2020 : Advocated for India's development through his Vision 2020 plan, which aimed at transforming India into a developed nation.<br><br>
+10. Books : Authored several books, including "Wings of Fire" (his autobiography), "Ignited Minds," and "India 2020."<br><br>
+11. Awards : Received numerous awards, including the Bharat Ratna, India's highest civilian honor.<br>
+12. Inspirational Figure : Inspired millions, especially the youth, through his speeches and writings on education, science, and nation-building.<br><br>
+13. Simple Lifestyle : Known for his humility, simple living, and dedication to public service.<br><br>
+14. Death : Passed away on July 27, 2015, while delivering a lecture at the Indian Institute of Management, Shillong.<br><br>
+15. Legacy : Remembered as one of India's most beloved leaders and a symbol of national pride.<br><br>
+            </p>
+        </section>
+    </div>
+    <p>For More Information click here <a href="https://www.goodreads.com/author/quotes/986042.A_P_J_Abdul_Kalam">A.P.J Abdul Kalam</a></p>
+    
+</body>
+</html>
+<!-- st.css -->
+body
+{
+    background: #147921;
+    color: black;
+    padding: 20px 5px;
+    overflow: visible;
+    width: 90%;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    display: inline;
+}
+img
+{
+    float: center;
+    margin-left: 380px;
+    display: block;
+    height: 330px;
+    width: 330px;
+}
+h2
+{
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+}
+.first
+{
+    background: rgb(65, 209, 65);
+    margin: 90px;
+    padding: auto;
+    border-color: 2px solid rgb(53, 56, 50);
+}

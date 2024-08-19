@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Again</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <header>
+        <h1>GeeksforCeeks Survey Form</h1>
+    </header>
+    <div id="first">
+        <form>
+            <label for="name">Name</label><br>
+            <input type="text" name="name" placeholder="Enter your name"><br><br>
+            <label for="email">Email</label><br>
+            <input type="text" name="email" placeholder="Enter your email"><br><br>
+            <label for="age">Age</label><br>
+            <input type="number" name="age" placeholder="Enter your age"><br><br>
+            <label for="option" name="option">Which option best describes you?</label><br>
+            <select>
+                <option>Student</option>
+                <option>Intern</option>
+            </select><br><br>
+            <label for="recomend">Would you recomend GeeksforCeeks to a friend?</label><br>
+            <input type="radio" name="suggest" value="yes">
+                    <label for="in-1">Yes</label><br>
+            <input type="radio" name="suggest" value="no">
+                    <label for="in-2">No</label><br>
+            <input type="radio" name="suggest" value="maybe">
+                    <label for="in-3">Maybe</label><br><br>
+                 <label for="op">Languages and Frameworks known (Check all that apply)</label><br>
+                 <input type="checkbox" name="project">
+                 <label for="c">C</label><br>
+                    <input type="checkbox" name="project">
+                    <label for="c++">C++</label><br>
+                    <input type="checkbox" name="project">
+                    <label for="c#">C#</label><br>
+                    <input type="checkbox" name="project">
+                    <label for="Java">Java</label><br>
+                    <input type="checkbox" name="project">
+                    <label for="JavaScript">JavaScript</label><br>
+                    <input type="checkbox" name="project">
+                    <label for="react">React</label><br>
+                    <input type="checkbox" name="project">
+                    <label for="angular">Angular</label><br>
+                    <input type="checkbox" name="project">
+                    <label for="django">Django</label><br>
+                    <input type="checkbox" name="project">
+                    <label for="spring">Spring</label><br><br>
+                    <label for="suggest">Any comments or suggestions</label><br>
+                    <textarea name="text" id="text" rows="5" cols="30"></textarea><br><br>
+                    <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+<-- st.css-->
+body
+{
+    background: rgba(0, 128, 0, 0.678);
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px
+}
+form
+{
+    background-color: white;
+    text-align: left;
+    font-style: serif;
+    font-size: 15px;
+    padding: 5px 25px;
+    margin: 50px;
+}
+.btn
+{
+    background-color: rgba(0, 128, 0, 0.678);
+    width: 250px;
+    height: 30px;
+}
